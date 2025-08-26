@@ -3,7 +3,7 @@ services:
     name: my-backend
     env: java
     buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
+    startCommand: $JAVA_HOME/bin/java -jar target/*.jar
     envVars:
       - key: JAVA_VERSION
         value: 17
