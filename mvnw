@@ -30,6 +30,7 @@
 # ----------------------------------------------------------------------------
 
 set -euf
+echo "Radi li echo???"
 [ "${MVNW_VERBOSE-}" != debug ] || set -x
 
 # OS specific support.
